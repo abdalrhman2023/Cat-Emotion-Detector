@@ -1,0 +1,27 @@
+# Ignore Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.so
+
+# Ignore virtual environments
+.venv/
+env/
+venv/
+
+# Ignore data & models (use DVC instead)
+data/
+models/
+
+# Ignore logs and checkpoints
+logs/
+*.log
+*.ckpt
+
+# Ignore Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
